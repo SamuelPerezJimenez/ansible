@@ -3,14 +3,8 @@
     - name: Clone repository
       command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
-    - shell:
-        chdir: /root/Segundo-parcial-algoritmos-paralelos/
-        cmd: ls
-      register: result
-      tags: t2
-
     - name: test
-      command: mkdir conzao
+      command: "cd Segundo-parcial-algoritmos-paralelos"
 
     - name: ejecutar compose
       command: docker-compose build
