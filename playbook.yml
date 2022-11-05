@@ -1,9 +1,9 @@
 - hosts: all
   tasks:    
-  - name: Install docker-compose
-    command: apt install docker-compose -y  
+  - name: Clone repository
+    commnad: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
-  - name: Install git
-    command: apt install git -y
+  - name: cd create
+    command: mkdir /Segundo-parcial-algoritmos-paralelos/SAMUEL
     
   become: yes
