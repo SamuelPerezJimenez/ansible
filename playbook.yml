@@ -9,6 +9,6 @@
 
 
     - name: ejecutar up
-      shell: "docker-compose up"
+      shell: "docker-compose up -d"
       args:
         chdir: "Segundo-parcial-algoritmos-paralelos"
