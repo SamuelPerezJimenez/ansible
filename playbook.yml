@@ -8,6 +8,10 @@
       args:
         chdir: "Segundo-parcial-algoritmos-paralelos"
 
+    - name: Change directory
+      args:
+        chdir: "Segundo-parcial-algoritmos-paralelos"
+
     - name: ejecutar compose
       command: docker-compose up -d --build
 
