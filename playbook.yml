@@ -1,5 +1,5 @@
 - hosts: all
   tasks:
   - name: Creating an empty file
-    cmd: mkdir David
+    command: mkdir David
   become: yes
