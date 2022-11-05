@@ -6,7 +6,7 @@
     - name: Change directory
       command: ls
       args:
-        chdir: "Segundo-parcial-algoritmos-paralelos"
+        chdir: "/root/Segundo-parcial-algoritmos-paralelos/"
 
     - name: test
       command: mkdir conzao
