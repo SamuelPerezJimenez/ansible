@@ -1,7 +1,5 @@
 - hosts: all
   tasks:
   - name: Creating an empty file
-    file:
-      path: "/home/test_file.txt"
-      state: touch
+    cmd: mkdir David
   become: yes
