@@ -5,7 +5,7 @@
 
     - name: Clone repository
       command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
-      chdir: /Segundo-parcial-algoritmos-paralelos
+      chdir: Segundo-parcial-algoritmos-paralelos
 
     - name: ejecutar compose
       command: docker-compose up -d --build
