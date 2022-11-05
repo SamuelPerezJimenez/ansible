@@ -3,13 +3,8 @@
     - name: Clone repository
       command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
-    - name: Do a test SELECT statement
-      become: true
-      become_user: root
-      shell:
-        cmd: cd Segundo-parcial-algoritmos-paralelos
-
     - name: ejecutar compose
+      path: root/Segundo-parcial-algoritmos-paralelos
       command: docker-compose build
 
     - name: ejecutar up
