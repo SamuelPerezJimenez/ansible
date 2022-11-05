@@ -6,7 +6,7 @@
     - name: ejecutar compose
       shell: "docker-compose build"
       args:
-        chdir: "/Segundo-parcial-algoritmos-paralelos"
+        chdir: "Segundo-parcial-algoritmos-paralelos"
 
     - name: ejecutar up
       command: docker-compose up
