@@ -4,11 +4,11 @@
       command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
     - name: ejecutar compose
-      shell: "docker-compose build"
+      shell: "mkdir jaunito"
       args:
         chdir: "Segundo-parcial-algoritmos-paralelos"
 
-    - name: ejecutar up
-      command: docker-compose up
+    # - name: ejecutar up
+    #   command: docker-compose up
 
   become: true
