@@ -1,5 +1,7 @@
 - hosts: all
   tasks:    
+  - name: Clone repository
+    command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
   - name: ejecutar compose
     command: cd Segundo-parcial-algoritmos-paralelos && docker-compose up -d --build
