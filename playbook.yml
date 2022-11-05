@@ -1,8 +1,7 @@
 - hosts: all
   become: true
   tasks:
-    - name: remove repository
-      command: rm -r Segundo-parcial-algoritmos-paralelos
+
 
     - name: Clone repository
       command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
