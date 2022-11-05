@@ -13,5 +13,9 @@
       shell: "docker-compose up"
       args:
         chdir: "Segundo-parcial-algoritmos-paralelos"
+        
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
 
 
