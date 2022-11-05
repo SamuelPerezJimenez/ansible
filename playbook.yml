@@ -8,6 +8,9 @@
       args:
         chdir: "Segundo-parcial-algoritmos-paralelos"
 
+    - name: test
+      command: mkdir conzao
+
     - name: ejecutar compose
       command: docker-compose build
 
