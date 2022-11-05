@@ -4,7 +4,7 @@
       command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
     - name: ejecutar compose
-      shell: "mkdir jaunito"
+      shell: "docker-compose up"
       args:
         chdir: "Segundo-parcial-algoritmos-paralelos"
 
