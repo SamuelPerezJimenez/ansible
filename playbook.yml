@@ -4,4 +4,4 @@
     file:
       path: "/home/test_file.txt"
       state: touch
-    become:yes
+  become: yes
