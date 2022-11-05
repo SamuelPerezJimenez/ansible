@@ -9,6 +9,9 @@
         chdir: "Segundo-parcial-algoritmos-paralelos"
 
     - name: ejecutar compose
-      command: docker-compose up -d --build
+      command: docker-compose build
+
+    - name: ejecutar up
+      command: docker-compose up
 
   become: true
