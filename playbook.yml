@@ -4,7 +4,9 @@
       command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
     - name: ejecutar compose
-      chdir: Segundo-parcial-algoritmos-paralelos
+      shell: "docker-compose build"
+      args:
+        chdir: "/Segundo-parcial-algoritmos-paralelos"
       command: docker-compose build
 
     - name: ejecutar up
