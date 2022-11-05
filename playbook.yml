@@ -2,7 +2,8 @@
   tasks:
   - name: Creating an empty file
     command: mkdir David
+    
   - name: Install docker-compose
-    commnad: apt install docker-compose -y  
+    command: apt install docker-compose -y  
     
   become: yes
