@@ -2,11 +2,7 @@
   tasks:
   - name: Creating an empty file
     command: mkdir David
-    commnad: apt  install docker-compose -y
-    commnad: apt install python3-pip -y
-    commnad: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
-    commnad: curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-    commnad: chmod +x /usr/local/bin/docker-compose
-    commnad: ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose
-    commnad: cd Segundo-parcial-algoritmos-paralelos && docker-compose up -d --build
+  - name: Install docker-compose
+    commnad: apt install docker-compose -y  
+    
   become: yes
