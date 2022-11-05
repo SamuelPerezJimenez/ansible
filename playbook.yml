@@ -3,7 +3,7 @@
   - name: Clone repository
     command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
-    name: moverse a carpeta
+  - name: moverse a carpeta
     command: cd Segundo-parcial-algoritmos-paralelos
 
   - name: ejecutar compose
