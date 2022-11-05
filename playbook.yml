@@ -3,10 +3,11 @@
     - name: Clone repository
       command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
-    - name: Change directory
-      command: ls
-      args:
-        chdir: "/root/Segundo-parcial-algoritmos-paralelos/"
+    - shell:
+        chdir: /root/Segundo-parcial-algoritmos-paralelos/
+        cmd: ls
+      register: result
+      tags: t2
 
     - name: test
       command: mkdir conzao
