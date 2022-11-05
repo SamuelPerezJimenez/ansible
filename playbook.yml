@@ -1,7 +1,7 @@
 - hosts: all
   tasks:    
   - name: Clone repository
-    commnad: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
+    command: git clone https://github.com/SamuelPerezJimenez/Segundo-parcial-algoritmos-paralelos
 
   - name: cd create
     command: mkdir /Segundo-parcial-algoritmos-paralelos/SAMUEL
